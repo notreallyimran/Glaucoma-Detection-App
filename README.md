@@ -12,7 +12,7 @@ generate_report_metrics - displays confusion matrix, ROC-AUC snd performance par
 app1.mlapp - Runs our detection app
 glaucoma_model.mat - contains saved workspace
 
-# IMPORTANT (Before running the app)
+# Before Running the App
 1. This app only work on Matlab R2024a and later version
 2. Install these Toolboxes on Matlab:
 - deep learning toolbox
@@ -20,7 +20,7 @@ glaucoma_model.mat - contains saved workspace
 - image processing toolbox
 
 # Using the App
-1. Open app1
+1. Open app1, this may take a while
 2. Upload any DFI from dataset
 3. EWait for model's verdict
 
