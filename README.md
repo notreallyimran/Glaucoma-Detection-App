@@ -1,5 +1,7 @@
-# Glaucoma-Detection-Copilot
+# Glaucoma Detection Copilot App using ResNet-50 Neural Network and Grad-CAM XAI
 This Matlab-powered application classifies DFIs into glaucoma positive (GON+) and healthy patient Using Hillel Yaffe Glaucoma Dataset
+
+Dataset obtained from https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/
 
 IMPORTANT
 MATLAB Toolboxes to install:
