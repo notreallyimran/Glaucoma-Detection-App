@@ -14,9 +14,9 @@ This Matlab-powered application classifies DFIs into glaucoma positive (GON+). O
 # Before Running the App
 1. This app only work on Matlab R2024a and later version
 2. Install these Toolboxes on Matlab:
-        - deep learning toolbox
-        - deep learning toolbox for resnet-50 network
-        - image processing toolbox
+   - deep learning toolbox
+   - deep learning toolbox for resnet-50 network
+   - image processing toolbox
 
 # Using the App
 1. Open app1.mlapp, this may take a while
