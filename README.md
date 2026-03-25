@@ -13,18 +13,23 @@ app1.mlapp - Runs our detection app
 glaucoma_model.mat - contains saved workspace
 
 # IMPORTANT (Before running the app)
-Install these Toolboxes on Matlab:
+1. This app only work on Matlab R2024a and later version
+2. Install these Toolboxes on Matlab:
 - deep learning toolbox
 - deep learning toolbox for resnet-50 network
 - image processing toolbox
 
-# How to open
+# Using the App
 1. Open app1
 2. Upload any DFI from dataset
-3. Enjoy
+3. EWait for model's verdict
 
-# If it's not working
-1. unzip glaucoma_model.rar and open glaucoma_model.mat. Wait for import data prompt to show up
-2. Tick trainNed and select import
-3. write appdesigner on command window, then click to open app1
-4. Run app1
+#FAQ
+1. I can't run the app
+- Install the toolboxes
+2. I 've installed the toolboxes but it's still not running
+- Your Matlab version is incompatible
+
+# Authors
+1. Imran Fareez Azmy - imranfareez1@gmail.com
+2. Ahmad Nafis Zulkiifli - ahmadnafiszulkifli@gmail.com
