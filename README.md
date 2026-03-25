@@ -26,9 +26,9 @@ glaucoma_model.mat - contains saved workspace
 
 # FAQ
 1. I can't run the app
-- Install the toolboxes
+  - Install the toolboxes
 2. I 've installed the toolboxes but it's still not running
-- Your Matlab version is incompatible
+  - Your Matlab version is incompatible
 
 # Authors
 1. Imran Fareez Azmy - imranfareez1@gmail.com
