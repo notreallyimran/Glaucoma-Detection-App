@@ -1,6 +1,8 @@
 # Glaucoma Detection App using ResNet-50 Neural Network and Grad-CAM XAI
 # Project Overview
-This Matlab-powered application classifies DFIs into glaucoma positive (GON+). Our ResNet-50 Neural Network is trained with DFIs from Hillel Yaffe Glaucoma Dataset - https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/
+This Matlab-powered application classifies DFIs into glaucoma positive (GON+). This model mitigates Clever Hans effect by applying cropping pipelining which enable the model to focus on optic cup instead of random spots on DFIs.
+
+Our ResNet-50 Neural Network is trained with DFIs from Hillel Yaffe Glaucoma Dataset - https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/
 
 
 # Project Files
@@ -13,7 +15,9 @@ This Matlab-powered application classifies DFIs into glaucoma positive (GON+). O
 
 # Before Running the App
 1. This app only work on Matlab R2024a and later version
-2. Install these Toolboxes on Matlab:
+2. Download glaucoma_model.mat here - https://drive.google.com/file/d/10eP-Mn-oUcI9XonSb4_QwCzXLluoixYs/view?usp=drive_link
+3. Make sure all files are in the same directory
+4. Install these Toolboxes on Matlab:
    - deep learning toolbox
    - deep learning toolbox for resnet-50 network
    - image processing toolbox
