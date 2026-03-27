@@ -6,16 +6,13 @@ Our ResNet-50 Neural Network is trained with DFIs from Hillel Yaffe Glaucoma Dat
 
 
 # Project Files
-1. crop dataset - preprocesses data
-2. train_model.m - trains data
-3. generate_features - Features extraction
-4. generate_report_metrics - displays confusion matrix, ROC-AUC snd performance parameters
-5. app1.mlapp - Runs our detection app
-6. glaucoma_model.mat - contains saved workspace, trained model
+1. train_model.m - Contains all the working code
+2. app1.mlapp - Runs our detection app
+3. projectworkspace.mat [ https://drive.google.com/file/d/19TZBsUBiqwZvrtBxaPBgHurL9zbI6muk/view?usp=sharing ] - contains saved workspace, trained model
 
 # Before Running the App
-1. This app only work on Matlab R2024a and later version
-2. Download glaucoma_model.mat here - https://drive.google.com/file/d/10eP-Mn-oUcI9XonSb4_QwCzXLluoixYs/view?usp=drive_link
+1. This app only works on Matlab R2024a and later version
+2. Download projectworkspace.mat 
 3. Make sure all files are in the same directory
 4. Install these Toolboxes on Matlab:
    - deep learning toolbox
@@ -32,10 +29,8 @@ Our ResNet-50 Neural Network is trained with DFIs from Hillel Yaffe Glaucoma Dat
     - Install the toolboxes
     - Ensure app1.mlapp and glaucoma_model.mat are in the same directory
 2. I 've installed the toolboxes and it's still not running. Please Follow these steps:
-      - Open matlab>home>import data>open glaucoma_model>tick trainedNet>click import
-      - Type appdesigner on command window and load app1
-      - Run app1
-
+      - Follow the instructions in train_model.m to run the script
+      - type appdesigner on command window>load app1.mlapp
 # Authors
 1. Imran Fareez Azmy - imranfareez1@gmail.com
 2. Ahmad Nafis Mohd Zulkiifli - ahmadnafiszulkifli@gmail.com
